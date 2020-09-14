@@ -18,7 +18,7 @@ mongoose.connect(
         console.log("######");
         console.log("##API REST##");
         console.log("######");
-        console.log(`htpp://${IP_SERVER}:${port}/api/${API_VERSION}`);
+        console.log(`http://${IP_SERVER}:${port}/api/${API_VERSION}`);
       });
     }
   }
